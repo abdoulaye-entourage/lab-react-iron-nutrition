@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    height: 60px;
+    border: 1px solid gray;
+    background-color:#1677ff;
+    color: white;
+    gap: 50Px;
+}
+.header > h1 {
+  width: 25%; 
+}
+
+.addAndHideButton {
+    background-color: #3a3939;
+    color: white;
+    align-self: right;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    padding: 5px;
+    width: 8em;
+    
+      }
+.addAndHideButton:hover {
+    background-color: white;
+    color: black;
+  transition: all 1.5s  ease-in-out;
+}
